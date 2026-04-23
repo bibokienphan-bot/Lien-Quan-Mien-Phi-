@@ -1,0 +1,76 @@
+<style>
+  .shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  .acc-card {
+    background: white;
+    width: 90%;
+    max-width: 350px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+  }
+  .acc-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .acc-info {
+    padding: 15px;
+  }
+  .acc-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  .acc-detail {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  .price {
+    font-size: 20px;
+    color: #2ecc71;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .buy-btn {
+    display: block;
+    text-align: center;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .buy-btn:hover {
+    background-color: #c0392b;
+  }
+</style>
+
+<div class="shop-container">
+  <div class="acc-card">
+    <img src=" https://share.google/d6rlgNVzJj8sbx8zi" class="acc-img" alt="Ảnh Acc">
+    <div class="acc-info">
+      <div class="acc-title">MÃ SỐ: #LQ001</div>
+      <div class="acc-detail">
+        • Rank: Ngẫu Nhiên<br>
+        • Tướng: Ngẫu Nhiên | Skin: Ngẫu Nhiên<br>
+        • Ngẫu Nhiên<br>
+        • Tình trạng: Ngẫu Nhiên 
+      </div>
+      <div class="price">GIÁ: 0đ</div>
+      <a href="https://zalo.me/0773496911" class="buy-btn">MUA NGAY QUA ZALO</a>
+    </div>
+  </div>
+  </div>
