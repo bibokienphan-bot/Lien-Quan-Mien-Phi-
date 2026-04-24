@@ -1,76 +1,40 @@
-<style>
-  .shop-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    padding: 10px;
-  }
-  .acc-card {
-    background: white;
-    width: 90%;
-    max-width: 350px;
-    margin: 10px;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border: 1px solid #ddd;
-  }
-  .acc-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  .acc-info {
-    padding: 15px;
-  }
-  .acc-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #e74c3c;
-    margin-bottom: 10px;
-  }
-  .acc-detail {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.6;
-  }
-  .price {
-    font-size: 20px;
-    color: #2ecc71;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  .buy-btn {
-    display: block;
-    text-align: center;
-    background-color: #e74c3c;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  .buy-btn:hover {
-    background-color: #c0392b;
-  }
-</style>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Acc Liên Quân 5K</title>
+    <style>
+        body { background-color: #1a1a1a; color: white; font-family: 'Arial', sans-serif; margin: 0; padding: 20px; text-align: center; }
+        .acc-card { background: #2c2c2c; width: 100%; max-width: 350px; border-radius: 15px; margin: auto; overflow: hidden; border: 2px solid #ffcc00; box-shadow: 0 5px 15px rgba(0,0,0,0.5); }
+        .acc-img { width: 100%; height: 200px; object-fit: cover; }
+        .acc-info { padding: 15px; }
+        .price { font-size: 26px; color: #2ecc71; font-weight: bold; margin: 15px 0; }
+        .buy-btn { display: block; width: 100%; background: #f39c12; color: white; padding: 18px 0; text-decoration: none; border: none; font-weight: bold; cursor: pointer; font-size: 20px; }
+        .buy-btn:hover { background: #e67e22; }
+        .note { color: #ff3333; font-weight: bold; font-size: 14px; margin-top: 10px; display: block; }
+    </style>
+</head>
+<body>
 
-<div class="shop-container">
-  <div class="acc-card">
-    <img src=" https://share.google/d6rlgNVzJj8sbx8zi" class="acc-img" alt="Ảnh Acc">
-    <div class="acc-info">
-      <div class="acc-title">MÃ SỐ: #LQ001</div>
-      <div class="acc-detail">
-        • Rank: Ngẫu Nhiên<br>
-        • Tướng: Ngẫu Nhiên | Skin: Ngẫu Nhiên<br>
-        • Ngẫu Nhiên<br>
-        • Tình trạng: Ngẫu Nhiên 
-      </div>
-      <div class="price">GIÁ: 0đ</div>
-      <a href="https://zalo.me/0773496911" class="buy-btn">MUA NGAY QUA ZALO</a>
+    <h2 style="color: #ffcc00; margin-bottom: 30px;">SHOP ACC NGẪU NHIÊN 5K</h2>
+
+    <div class="acc-card">
+        <img src="https://i.postimg.cc/9F4vF3k6/kien-acc.jpg" class="acc-img">
+        <div class="acc-info">
+            <div style="font-size: 20px; font-weight: bold; color: #ffcc00;">GÓI NGẪU NHIÊN #001</div>
+            <div style="text-align: left; font-size: 15px; margin-top: 10px; line-height: 1.6;">
+                • Rank: Ngẫu Nhiên<br>
+                • Tướng/Skin: Ngẫu Nhiên<br>
+                <span class="note">* Lưu ý: Sau khi nạp thẻ thành công, bạn chờ 5-10 phút để shop kiểm tra và gửi mật khẩu qua Facebook/SĐT nhé!</span>
+            </div>
+            <div class="price">GIÁ: 5.000đ</div>
+        </div>
+        
+        <a href="https://forms.gle/5BrEW8CBnw6H8g9x5" class="buy-btn">NẠP THẺ MUA ACC</a>
     </div>
-  </div>
-  </div>
+
+    <p style="margin-top: 30px; font-size: 13px; color: #888;">Shop uy tín - Bảo mật - Làm ăn lâu dài</p>
+
+</body>
+</html>
